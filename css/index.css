@@ -318,3 +318,37 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.home .sign-up {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  height: 50rem;
+  padding: 2rem;
+  margin: 0 4rem 0 4rem;
+  background-color: #81848E;
+}
+.home .sign-up form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home .sign-up form label {
+  font-size: 2.5rem;
+  color: black;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+}
+.home .sign-up form input {
+  width: 90%;
+  height: 3rem;
+  font-size: 1.5rem;
+}
+.home .sign-up form #planet {
+  font-size: 2rem;
+}
+.home .sign-up form input[type=submit] {
+  font-size: 3rem;
+  width: 15rem;
+  margin: 3rem;
+}

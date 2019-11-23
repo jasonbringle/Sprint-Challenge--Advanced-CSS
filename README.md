@@ -62,18 +62,18 @@ Follow these steps to set up your project:
 
 ### Git Set up
 
-- [* ] Create a forked copy of this project.
-- [* ] Add your project manager as collaborator on Github.
-- [ *] Clone your OWN version of the repository (Not Lambda's by mistake!).
-- [ *] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [* ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ *] Push commits: git push origin `<firstName-lastName>`.
+- [*] Create a forked copy of this project.
+- [*] Add your project manager as collaborator on Github.
+- [*] Clone your OWN version of the repository (Not Lambda's by mistake!).
+- [*] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [*] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [*] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
-- [ ] Add your project manager as a reviewer on the pull-request
-- [ ] Your project manager will count the project as complete by merging the branch back into master.
+- [*] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo). **Please don't merge your own pull request**
+- [*] Add your project manager as a reviewer on the pull-request
+- [*] Your project manager will count the project as complete by merging the branch back into master.
  
 
 ### Preprocessor Set up
@@ -128,7 +128,7 @@ _You will know everything is working properly when you see the styles enabled fo
 
 * [*] Create a `@phone` variable that contains a `max-width: 500px` media query string. Use the `@phone` variable for all your nested mobile styling.
 
-* [] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
+* [*] [Review the provided home mobile design file](design-files/home-mobile.png). Match your mobile styling the best you can using the design file.
 
 * [ ] Push your changes and create a pull request if you haven't already.
 
@@ -144,4 +144,4 @@ After finishing your required elements, you can push your work further. These go
 
 * [ ] Create a fixed navigation and add some opacity to the background
 
-* [ ] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
+* [*] Create a form that would allow someone to sign up for a Spacewalkers Magazine subscription
