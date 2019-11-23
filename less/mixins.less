@@ -1,1 +1,29 @@
 // Mixins Here
+.img-bd-radius{
+    border-radius:6px;
+    width: 100%;
+}
+
+.walk-params{
+    margin-top: 60px;
+      border-top: 1px solid @main-border-color;
+      padding: 2rem 60px;
+      display: flex;
+      justify-content: center;
+}
+
+.btn-params(@fcolor, @bgc){
+    border-color: @nav-border;
+    font-size: 1.8rem;
+    color: @fcolor;
+    width: 10rem;
+    background-color:@bgc;
+    border-radius: 4px;
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.hover-specs(@bg;@color;){
+    background:@bg;
+    color:@color;
+}

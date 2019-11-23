@@ -5,7 +5,7 @@
   <meta charset="utf-8">
 
   <title>SpaceWalkers</title>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css?family=Russo+One|Ubuntu" rel="stylesheet">
   <link href="css/index.css" rel="stylesheet">
 
@@ -16,12 +16,21 @@
 
 <body>
 
- <!-- navigation code here -->
+  <div class ="navigation">
+    <h1>SpaceWalkers</h1>
+    <nav>
+      <a href= “”>Home</a>
+      <a href= “”>About Us</a>
+      <a href= “”>Blog</a>
+      <a href= “”>Contact</a>
+      <a href= “”>Sign In</a>
+    </nav>
+  </div>
 
   <div class="container home">
 
     <header class="intro">
-       <!-- image code here -->
+      <img src='img/main-header.png'>
 
       <h2>Lift Off</h2>
     
@@ -61,6 +70,32 @@
       </div>
 
     </section>
+
+    <div class = 'sign-up'>
+      <h3>Sign-up to receive Spacewalkers Magazine!</h3>
+      <form>
+        <label for='name'>Name</label>
+        <input type='text' id='fname' name='Name' placeholder='Your name..'>
+
+        <label for='email'>Email</label>
+        <input type='text' id='email' name='Email' placeholder='Your email..'>
+
+        <label for='planet'>Favorite Planet!</label>
+        <select id="planet" name='planet'>
+          <!-- <option value='choose'></option> -->
+          <option value='hoth'>Hoth</option>
+          <option value='mars'>Mars</option>
+          <option value='death-star'>Death Star (Not A Moon)</option>
+          <option value='xenu'>Xenu</option>
+        </select>
+
+          <input type='submit' value='Submit!'>
+        
+      </form>
+
+
+    </div>
+
 
     <footer>
       <p>Copyright SpaceWalkers 2018</p>
