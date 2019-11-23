@@ -16,12 +16,13 @@
     nav{
         display:flex;
         justify-content: space-around;
-        width:50%;
+        width:60%;
         align-content: center;
         padding-top: 1.2rem;
 
-        @mobile: ~'(max-width: 500px)';
+        @media @phone{
         width: 90%;
+        }
         
         a{
         text-decoration: none;
