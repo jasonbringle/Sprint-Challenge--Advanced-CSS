@@ -1,1 +1,33 @@
 // Navigation code here
+.navigation{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background:@nav-bg;
+    padding: 1rem;
+
+    h1{
+        font-size: 4rem;
+        padding-top: 1rem;
+        padding-bottom: .7rem;
+    }
+    
+    nav{
+        display:flex;
+        justify-content: space-around;
+        width:50%;
+        align-content: center;
+        padding-top: 1.2rem;
+
+        @mobile: ~'(max-width: 500px)';
+        width: 90%;
+        
+        a{
+        text-decoration: none;
+        color: @river-bend ;
+        font-size: 1.7rem ;
+        }
+    }
+}
+
